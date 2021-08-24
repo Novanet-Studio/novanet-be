@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactos",
+  "info": {
+    "name": "contacto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "principal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "formulario": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    }
+  }
+}

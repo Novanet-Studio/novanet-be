@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosotros",
+  "info": {
+    "name": "nosotros"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "principal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.basico"
+    },
+    "proposito": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    },
+    "objetivo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.basico"
+    },
+    "trabaja": {
+      "type": "component",
+      "repeatable": false,
+      "component": "informacion.basico"
+    }
+  }
+}

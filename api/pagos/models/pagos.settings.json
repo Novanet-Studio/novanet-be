@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagos",
+  "info": {
+    "name": "pagos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plataforma": {
+      "type": "component",
+      "repeatable": true,
+      "component": "informacion.icono-descripcion"
+    }
+  }
+}
