@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "servicios",
+  "collectionName": "blogs",
   "info": {
-    "name": "servicios",
-    "description": ""
+    "name": "blog"
   },
   "options": {
     "increments": true,
@@ -14,11 +13,6 @@
   "attributes": {
     "descripcion": {
       "type": "richtext"
-    },
-    "servicios": {
-      "type": "component",
-      "repeatable": true,
-      "component": "informacion.servicio"
     }
   }
 }

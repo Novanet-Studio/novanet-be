@@ -2,19 +2,21 @@
   "collectionName": "components_informacion_servicios",
   "info": {
     "name": "servicio",
-    "icon": "star"
+    "icon": "star",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "servicio": {
-      "type": "component",
-      "repeatable": false,
-      "component": "informacion.basico"
-    },
     "especialidad": {
       "type": "component",
       "repeatable": true,
       "component": "informacion.icono-descripcion"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
     }
   }
 }

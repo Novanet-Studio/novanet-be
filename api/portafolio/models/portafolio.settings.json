@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "inicios",
+  "collectionName": "portafolios",
   "info": {
-    "name": "inicio",
-    "description": ""
+    "name": "portafolio"
   },
   "options": {
     "increments": true,
@@ -12,15 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "principal": {
-      "type": "text"
+    "descripcion": {
+      "type": "richtext"
     },
-    "secundario": {
-      "type": "text"
-    },
-    "contacto": {
+    "categorias": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "informacion.icono-descripcion"
     }
   }

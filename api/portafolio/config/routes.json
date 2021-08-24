@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/portafolio",
+      "handler": "portafolio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/portafolio",
+      "handler": "portafolio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/portafolio",
+      "handler": "portafolio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

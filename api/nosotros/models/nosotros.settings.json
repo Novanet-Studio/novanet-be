@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "nosotros",
   "info": {
-    "name": "nosotros"
+    "name": "nosotros",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,7 +14,7 @@
   "attributes": {
     "principal": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "informacion.basico"
     },
     "proposito": {
@@ -23,7 +24,7 @@
     },
     "objetivo": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "informacion.basico"
     },
     "trabaja": {
