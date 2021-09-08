@@ -45,6 +45,10 @@
     },
     "fecha": {
       "type": "date"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
     }
   }
 }

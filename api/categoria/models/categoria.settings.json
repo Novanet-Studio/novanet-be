@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "name": "categoria",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "icono": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "proyectos": {
+      "collection": "proyecto",
+      "via": "categorias"
+    }
+  }
+}
