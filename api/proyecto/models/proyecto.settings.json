@@ -21,15 +21,6 @@
     "ciudad": {
       "type": "string"
     },
-    "categoria": {
-      "type": "enumeration",
-      "enum": [
-        "logotipos",
-        "impresos",
-        "web",
-        "tipografia"
-      ]
-    },
     "meta": {
       "type": "component",
       "repeatable": true,
